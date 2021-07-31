@@ -16,6 +16,7 @@
 - Task의 실행상태 DB 저장 -> 사용자의 UI를 통한 상태 확인
 
 ## Airflow Operator
+#### 각 Task는 Operator Class를 인스턴스화 해서 만든다. task=MyOperator(...)
  - BashOperator : bash command를 실행
  - PythonOperator : Python 함수를 실행
  - EmailOperator : Email을 발송
